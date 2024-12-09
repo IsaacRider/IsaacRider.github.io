@@ -16,15 +16,19 @@
         <link href="css/styles.css" rel="stylesheet" />
         <style>
             img {
-                max-width: 100%;
+                max-width: 60%;
                 max-height: 100%;
             }
             .picture {
-                width: 500px;
-                height: 500px;
+                width: width;
                 object-fit: contain;
             }
         </style>
+        <script>
+            let width = screen.width;
+            let height = width/1.5;
+            document.getElementById("demo").innerHTML =  width + "px";
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
